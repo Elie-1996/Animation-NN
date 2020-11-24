@@ -14,7 +14,7 @@ Starting from week 6, I will try to work at least 2 days every-week to make up f
 2-day workload this week. 
 * Created a Slack Channel + Invited Roee to Channel.
 * Setup a Github + Github Projects TODO list (can be found under Projects). 
-* Setup the Environment: Installed Unity, Visual Studio, C#, PyCharm, CUDA tools, GeForceExperience, Python, and Pytorch.
+* Setup the Environment: Installed Unity, Visual Studio, C#, PyCharm, Conda, CUDA tools, GeForceExperience, Python, and Pytorch.
 * Read the official article and the paper (of Learned Motion Matching) fully. Still need additional understanding.
 * Took a look at suggested link (https://github.com/sebastianstarke/AI4Animation) AI4Animation. Found out I need TensorFlow to run it.
 
