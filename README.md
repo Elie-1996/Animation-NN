@@ -2,7 +2,7 @@
 Learned Motion Matching, and more...
 
 Here, I will record and track the progress of the project.
-More information about each item can be found under the TODO list in Projects.
+__More information about each item can be found under the TODO list in Projects.__
 
 Tracking Progress:
 
