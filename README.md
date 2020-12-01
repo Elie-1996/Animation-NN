@@ -34,6 +34,6 @@ Then, install Tensorflow version that comes with the command:
 
 __conda install -c anaconda tensorflow__
 * Installed Unity 2018.3.0f2 version - to match AI4Animation installation.
-* Successfully ran one of the demos.
+* Successfully ran one of the demos, yay!
 
 
