@@ -27,8 +27,11 @@ X-day workload this week. (X to be filled later)
 Problem of TF in greater detail (in case of this happening again):
 numpy caused all sorts of problems when introduced in a combined environment with TF. To solve this,
 start a new environment, and install Numpy 19.4.2 using:
-__conda install -c esgf numpy __
+
+__conda install -c esgf numpy__
+
 Then, install Tensorflow version that comes with the command:
+
 __conda install -c anaconda tensorflow__
 * Installed Unity 2018.3.0f2 version - to match AI4Animation installation.
 * Successfully ran one of the demos.
