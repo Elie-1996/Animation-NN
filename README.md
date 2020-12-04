@@ -12,7 +12,7 @@ Was unable to start due to obligations in Computer Vision Research (and HW in we
 Starting from week 6, I will try to work at least 2 days every-week to make up for lost time.
 # Week 6: 
 2-day workload this week. 
-* Created a Slack Channel + Invited Roee to Channel.
+* Created a Slack Channel + Invited Roi to Channel.
 * Setup a Github + Github Projects TODO list (can be found under Projects). 
 * Updated TODOs in Github Projects.
 * Setup the Environment: Installed Unity, Visual Studio, C#, PyCharm, Conda, CUDA tools, GeForceExperience, Python, and Pytorch.
@@ -37,7 +37,7 @@ __conda install -c anaconda tensorflow__
 * Successfully ran one of the demos, yay!
 * Explored rest of the demos and played with the run-times.
 * Very basic and Initial Familiarization with all runs.
-* Talked to Roee and got general direction of what to do in the meantime.
+* Talked to Roi and got general direction of what to do in the meantime.
 
 # Week 8:
 X-day workload this week. (X to be filled later)
