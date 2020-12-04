@@ -20,7 +20,7 @@ Starting from week 6, I will try to work at least 2 days every-week to make up f
 * Took a brief look at suggested link (https://github.com/sebastianstarke/AI4Animation) AI4Animation. Found out I needed TensorFlow to take a closer look.
 
 # Week 7:
-X-day workload this week. (X to be filled later)
+2-day workload this week. (X to be filled later)
 * Updated TODOs in Github Projects.
 * Setup Tensorflow + Small Ramp up comparing Tensorflow and Pytorch implementation: https://towardsdatascience.com/pytorch-vs-tensorflow-spotting-the-difference-25c75777377b
 * Solved issues with Tensorflow Setup + Pytorch that got messed up. (dependency issues - tf didn't compile)
@@ -37,5 +37,9 @@ __conda install -c anaconda tensorflow__
 * Successfully ran one of the demos, yay!
 * Explored rest of the demos and played with the run-times.
 * Very basic and Initial Familiarization with all runs.
+* Talked to Roee and got general direction of what to do in the meantime.
+
+# Week 8:
+X-day workload this week. (X to be filled later)
 
 
