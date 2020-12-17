@@ -40,6 +40,10 @@ __conda install -c anaconda tensorflow__
 * Talked to Roi and got general direction of what to do in the meantime.
 
 # Week 8:
+0-day workload this week. (Got ill :()
+
+# Week 9:
 X-day workload this week. (X to be filled later)
+
 
 
