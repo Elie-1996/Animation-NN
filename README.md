@@ -58,4 +58,5 @@ __conda install -c anaconda tensorflow__
   Another step would be to change the geometry encoders. They suggested PointNet++. Perhaps it is worth it to try their direction first. \
   -> I am curious, is the animation working for the character loaded specifically? It would be interesting to see what would happen if we loaded a different skeleton.
 * (In progress) reading code in Unity and then training, and comparing it to paper...
+* Had to repair Visual Studio 2019 (unexplained irresponsiveness...)
 
