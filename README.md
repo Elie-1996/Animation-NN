@@ -51,7 +51,7 @@ __conda install -c anaconda tensorflow__
   -> The character is more responsive when we control it through the keyboard, otherwise the "action" estimation gets confused and its as if the character tries to do multiple actions at once. \
   -> Unsure if I should list this in the limits, but the "idle" state when the character is already sitting causes backward sliding. \
   -> Characters fails to sit correctly on the chair (it misses its arm sometimes).
-* Wrote notes on possible improvements:
+* Wrote notes on possible improvements:\
   -> We can increase the augmented data in the same way, but creating our own scenes. \
   -> It would be interesting to let the character adapt to different 3D environment. To achieve this, perhaps we can alter the representation of the scene information to \
   be more complex, for instance, having a neural network output geometry descriptors/feature space. (Although, admittedly this will probably need total retraining of the \
