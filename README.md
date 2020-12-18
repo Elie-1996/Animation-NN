@@ -55,6 +55,7 @@ __conda install -c anaconda tensorflow__
   -> We can increase the augmented data in the same way, but creating our own scenes. \
   -> It would be interesting to let the character adapt to different 3D environment. To achieve this, perhaps we can alter the representation of the scene information to be more complex, for instance, having a neural network output geometry descriptors/feature space. (Although, admittedly this will probably need total retraining of the Neural networks, which takes 1-2 days - There are possible solutions though like azure but they're generally costly). \
   Another step would be to change the geometry encoders. They suggested PointNet++. Perhaps it is worth it to try their direction first. \
-  -> I am curious, is the animation working for the character loaded specifically? It would be interesting to see what would happen if we loaded a different skeleton.
+  -> I am curious, is the animation working for the character loaded specifically? It would be interesting to see what would happen if we loaded a different skeleton.\
+  -> If the user "regrets" taking a sit action, then performs a "carry" action, the transition of the animation fails to avoid obstacles, and even it is not smooth.
 * (In progress) reading code in Unity and then training, and comparing it to paper...
 
