@@ -43,7 +43,10 @@ __conda install -c anaconda tensorflow__
 0-day workload this week. (Got ill :()
 
 # Week 9:
-X-day workload this week. (X to be filled later)
-
-
+2-day workload this week.
+* Read the paper and gained general understanding of the code..
+* Reported to Roi.
+* Ran various simulations to gain more insight on system's limits.
+* Wrote notes on possible improvements.
+* (In progress) reading code and comparing it to paper..
 
