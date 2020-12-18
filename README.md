@@ -59,5 +59,6 @@ __conda install -c anaconda tensorflow__
   -> I am curious, is the animation working for the character loaded specifically? It would be interesting to see what would happen if we loaded a different skeleton.
 * **(In progress)** reading code in Unity and then training, and comparing it to paper...
 * Troubleshooting Visual Studio 2019 (unexplained irresponsiveness... and unnecessary hindrance ) - **Fixed after 2 hours**. As a result Unity Projects won't load.
-* **(In progress)** Troubleshooting Unity. (due to slowness issues of Visual Studio).
+* Troubleshooting Unity. (due to slowness issues of Visual Studio) - **Fixed after another 2 hours**. In case this happens again here is the fix: reload every "Assembly-CSharp" project.
+
 
