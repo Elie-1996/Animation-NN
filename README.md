@@ -46,15 +46,17 @@ __conda install -c anaconda tensorflow__
 2-day workload this week.
 * Read the paper and gained general understanding of the code..
 * Reported to Roi.
-* Ran various simulations to gain more insight on system's limits:
-  -> The "Carry" interaction does not work well when the object the character wants to carry is directly behind it. Occasionally it even fails to complete.
-  -> The character is more responsive when we control it through the keyboard, otherwise the "action" estimation gets confused and its as if the character tries to do multiple actions at once.
-  -> Unsure if I should list this in the limits, but the "idle" state when the character is already sitting causes backward sliding.
-  -> Characters fails to sit correctly on the chair (it misses its arm sometimes).
+* Ran various simulations to gain more insight on system's limits: \
+  -> The "Carry" interaction does not work well when the object the character wants to carry is directly behind it. Occasionally it even fails to complete. \
+  -> The character is more responsive when we control it through the keyboard, otherwise the "action" estimation gets confused and its as if the character tries to do multiple actions at once. \
+  -> Unsure if I should list this in the limits, but the "idle" state when the character is already sitting causes backward sliding. \
+  -> Characters fails to sit correctly on the chair (it misses its arm sometimes). \
 * Wrote notes on possible improvements:
-  -> We can increase the augmented data in the same way, but creating our own scenes.
-  -> It would be interesting to let the character adapt to different 3D environment. To achieve this, perhaps we can alter the representation of the scene information to be more complex, for instance, having a neural network output geometry descriptors/feature space. (Although, admittedly this will probably need total retraining of the Neural networks, which takes 1-2 days - There are possible solutions though like azure but they're generally costly).
-  Another step would be to change the geometry encoders. They suggested PointNet++. Perhaps it is worth it to try their direction first.
+  -> We can increase the augmented data in the same way, but creating our own scenes. \
+  -> It would be interesting to let the character adapt to different 3D environment. To achieve this, perhaps we can alter the representation of the scene information to \
+  be more complex, for instance, having a neural network output geometry descriptors/feature space. (Although, admittedly this will probably need total retraining of the \
+  Neural networks, which takes 1-2 days - There are possible solutions though like azure but they're generally costly). \
+  Another step would be to change the geometry encoders. They suggested PointNet++. Perhaps it is worth it to try their direction first. \
   -> I am curious, is the animation working for the character loaded specifically? It would be interesting to see what would happen if we loaded a different skeleton.
 * (In progress) reading code in Unity and then training, and comparing it to paper...
 
