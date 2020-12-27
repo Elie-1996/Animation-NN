@@ -61,4 +61,9 @@ __conda install -c anaconda tensorflow__
 * Troubleshooting Visual Studio 2019 (unexplained irresponsiveness... and unnecessary hindrance ) - **Fixed after 2 hours**. As a result Unity Projects won't load.
 * Troubleshooting Unity. (due to slowness issues of Visual Studio) - **Fixed after another 2 hours**. In case this happens again here is the fix: reload every "Assembly-CSharp" project.
 
+# Week 10:
+X-day workload this week.
+* Checked out video: https://www.youtube.com/watch?v=7c6oQP1u2eQ&ab_channel=SebastianStarke (Explaining the entrire paper).
+* 
+
 
