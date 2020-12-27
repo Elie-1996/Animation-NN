@@ -62,14 +62,14 @@ __conda install -c anaconda tensorflow__
 * Troubleshooting Unity. (due to slowness issues of Visual Studio) - **Fixed after another 2 hours**. In case this happens again here is the fix: reload every "Assembly-CSharp" project.
 
 # Week 10:
-X-day workload this week.
-* Next, we try to revise and gain additional understanding of the paper in order to understand what is truly going on. Our approach will be to question what each GUI element is telling the user is happening, which will hopefully unveil the general programming ideas beneath the project.
-* Checked out video: https://www.youtube.com/watch?v=7c6oQP1u2eQ&ab_channel=SebastianStarke (Explaining the entrire paper, in a brief manner).
-* **(In Progress)** Let us try to understand the GUI:
-What is "Bidirectional"? 
-What is "Environment"? Basically, the way the system detects there is an object. It is a high-level representation of theobject without caring too much about its structure. This is used to avoid obstacles.
-What is "Interaction"? When planning to interact with an object, the system needs to specify the character's end position more accurately. For this, the "Interaction" structure of the object is made in order to ensure more precision in the end state.
-* **(In Progress)** Let us try to under the paper better:
-What is volumetric representation?
+X-day workload this week. \
+* Next, we try to revise and gain additional understanding of the paper in order to understand what is truly going on. Our approach will be to question what each GUI element is telling the user is happening, which will hopefully unveil the general programming ideas beneath the project. \
+* Checked out video: https://www.youtube.com/watch?v=7c6oQP1u2eQ&ab_channel=SebastianStarke (Explaining the entrire paper, in a brief manner). \
+* **(In Progress)** Let us try to understand the GUI: \
+What is "Bidirectional"? \
+What is "Environment"? Basically, the way the system detects there is an object. It is a high-level representation of theobject without caring too much about its structure. This is used to avoid obstacles. \
+What is "Interaction"? When planning to interact with an object, the system needs to specify the character's end position more accurately. For this, the "Interaction" structure of the object is made in order to ensure more precision in the end state. \
+* **(In Progress)** Let us try to under the paper better: \
+What is volumetric representation? \
 
 
