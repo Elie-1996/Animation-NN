@@ -8,6 +8,7 @@ Tracking Progress:
 
 # Week 1-5: 
 Was unable to start due to obligations in Computer Vision Research (and HW in week 5)...
+* Slight Note: Prior to starting the investigation below, We actually checked out the article on Learned Motion Matching first as well as reading and understanding the paper. The problem was that we couldn't find any implementation online.
 
 Starting from week 6, I will try to work at least 2 days every-week to make up for lost time.
 # Week 6: 
@@ -62,14 +63,31 @@ __conda install -c anaconda tensorflow__
 * Troubleshooting Unity. (due to slowness issues of Visual Studio) - **Fixed after another 2 hours**. In case this happens again here is the fix: reload every "Assembly-CSharp" project.
 
 # Week 10:
-X-day workload this week. \
+3-day workload this week. \
 * Next, we try to revise and gain additional understanding of the paper in order to understand what is truly going on. Our approach will be to question what each GUI element is telling the user is happening, which will hopefully unveil the general programming ideas beneath the project. \
 * Checked out video: https://www.youtube.com/watch?v=7c6oQP1u2eQ&ab_channel=SebastianStarke (Explaining the entrire paper, in a brief manner). \
 * **(In Progress)** Let us try to understand the GUI: \
 What is "Bidirectional"? \
 What is "Environment"? Basically, the way the system detects there is an object. It is a high-level representation of theobject without caring too much about its structure. This is used to avoid obstacles. \
-What is "Interaction"? When planning to interact with an object, the system needs to specify the character's end position more accurately. For this, the "Interaction" structure of the object is made in order to ensure more precision in the end state. \
-* **(In Progress)** Let us try to under the paper better: \
-What is volumetric representation? \
+What is "Interaction"? When planning to interact with an object, the system needs to specify the character's end position more accurately. For this, the "Interaction" structure (volumetric representation) of the object is made in order to ensure more precision in the end state. \
+What is Current? It denotes continuous action labels changing from zero to one on each of the t (t=13) trajectory points. \
+This purely auto-regressive vector can be understood as describing the character state and is composed of seven types of motion, representing idle, walk, run, sit, open, carry and climb. \
+What is Goal? It is the goal provided as high-level instruction from the user. It is a vector that says how "sure" we are of the current goal - sit, walk, run, idle, open, carry. (climb is not included, due to accurately being able to time it well). \
+That's not all, it produces the future positions and orientations in the 3D world. When using *keyboard* it remains on the 2D-plane of the floor. When interacting with an object -i.e sitting- it encompasses itself onto the origin of that object. \
+* **(In Progress)** Let us try to understand the paper better: \
+What is volumetric representation? Basically cuboids, once we interact with the object its volumentric representation is calculated. Once the character is within close proximity of an object it is detected. \
+Highlight: "Zhang et al.[2018] propose a method based on the mixture\
+of experts [Jacobs et al. 1991] to construct a real-time character\
+controller for quadruped characters."\
 
 
+Things we should try: \
+1) Terrain: would this project be able to handle movement in terrain? \
+* To try this, notice we would need an accurate collider to hit the ground otherwise gravity for objects fails.
+* 
+2) Skeleton: would this project be able to produce smooth movements on a different skeleton? Perhaps another humanoid, or what about a quadruped character? \
+3) Build a scene s.t the room is identical to one we can test in. i.e build an artificial 3D model of an existing room we can test in. \
+
+Questions: \
+1) What kind of sensors can we 
+** Second day complete for now, will continue tomorrow hopefully will understand the entire GUI.
