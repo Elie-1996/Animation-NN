@@ -89,5 +89,5 @@ Things we should try: \
 3) Build a scene s.t the room is identical to one we can test in. i.e build an artificial 3D model of an existing room we can test in. \
 
 Questions: \
-1) What kind of sensors can we 
+1) What kind of sensors can we \
 ** Second day complete for now, will continue tomorrow hopefully will understand the entire GUI.
