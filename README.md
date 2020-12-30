@@ -81,6 +81,14 @@ Highlight: "Zhang et al.[2018] propose a method based on the mixture\
 of experts [Jacobs et al. 1991] to construct a real-time character\
 controller for quadruped characters."\
 Input to the Gating Network? refer to equation (5). \
+* Talked to Roi and setup to meet for Thursday.
+
+
+Thingswe can try to understand the project better: \
+1) Try to use less experts. \
+2) Try to retrain the networks. \
+3) Try to redefine the locations of the "Contacts". \
+4) Try to change the environment Radius and height. \
 
 
 Things we should try: \
