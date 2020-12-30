@@ -74,11 +74,13 @@ What is Current? It denotes continuous action labels changing from zero to one o
 This purely auto-regressive vector can be understood as describing the character state and is composed of seven types of motion, representing idle, walk, run, sit, open, carry and climb. \
 What is Goal? It is the goal provided as high-level instruction from the user. It is a vector that says how "sure" we are of the current goal - sit, walk, run, idle, open, carry. (climb is not included, due to accurately being able to time it well). \
 That's not all, it produces the future positions and orientations in the 3D world. When using *keyboard* it remains on the 2D-plane of the floor. When interacting with an object -i.e sitting- it encompasses itself onto the origin of that object. \
+What is Experts? It is the experts weights. K=10 in the demo, which means we have 10 experts. The jiggly thing is basically telling us how much we trust a specific expert. This is the output of the gating network: the closer the ball is to an expert, the larger the coefficients to its weights which are inputted in "Motion Prediction Network". \
 * **(In Progress)** Let us try to understand the paper better: \
 What is volumetric representation? Basically cuboids, once we interact with the object its volumentric representation is calculated. Once the character is within close proximity of an object it is detected. \
 Highlight: "Zhang et al.[2018] propose a method based on the mixture\
 of experts [Jacobs et al. 1991] to construct a real-time character\
 controller for quadruped characters."\
+Input to the Gating Network? refer to equation (5). \
 
 
 Things we should try: \
